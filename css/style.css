@@ -5,20 +5,62 @@
 }
 
 .container {
-    background-color: #ef1aea;
-    height: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
     width: 80%;
     margin: 10% auto;
 }
 
+.navbar {
+    background-color: #ef1beb;
+    margin-bottom: 1%;
+    height : 50px;
+}
+
 header {
-    background-color: #d7e361;
-    
+    background-color: #d7e461;
+    margin-bottom: 1%;    
+    height: 200px;
 }
-body {
-    background-color: #acc9eb;
+
+main {
+    background-color: #654aff;
+    padding-bottom: .5%;
+    margin-bottom: .3%;
+    height: 266px;
 }
+
+.clearfix::after {
+    background-color: #654aff;
+    content: '';
+    display: table;
+    clear: both;    
+}
+
+.contenuto {
+    margin-bottom:1%;
+    background-color: #acc9ea;
+    margin-bottom: 1% ;
+    height : 35px;
+}
+.left, .center, .right {
+    width: 30%;
+    float: left;
+    height: 210px;
+} 
+
+.center {
+    margin:0 10px;
+    width:38%;
+}
+
+.right {
+    float: right;
+}
+
+
 
 footer {
     background-color: #a500ff;
+    height:500px;
 }
