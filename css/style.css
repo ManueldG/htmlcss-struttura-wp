@@ -1,16 +1,20 @@
+/* Reset*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*sfondo grigio*/
 html {
     background-color: #232323;
 }
 
+/*centratura body*/
 body {
     margin: auto;
 }
 
+/*struttura contenitore principale*/
 .container {
     background-color: rgb(255, 255, 255);
     height: 600px;
@@ -36,7 +40,8 @@ main {
     margin-bottom: .8%;
 }
 
-.clearfix::after {
+/*CLEARFIX*/
+.clearfix::after { 
     background-color: #654aff;
     content: '';
     display: table;
@@ -48,23 +53,26 @@ main {
     margin-bottom: 10px ;
     height : 35px;
 }
+
+/*float*/
 .left, .center, .right {
     width: 95px;
     float: left;
     height: 210px;
 } 
 
+/*sovrascrivo .center*/
 .center {
     margin:0 10px;
     width: 265px;
 }
 
+/*sovrascrivo .right*/
 .right {
     float: right;
 }
 
-
-
+/* footer*/
 footer {
     background-color: #a500ff;
     height:35px;
