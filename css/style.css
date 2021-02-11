@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 
-header {
+.container {
+    background-color: #ef1aea;
+    height: 100%;
+    width: 80%;
+    margin: 10% auto;
+}
 
+header {
+    background-color: #d7e361;
+    
 }
 body {
-    color: ;
+    background-color: #acc9eb;
+}
+
+footer {
+    background-color: #a500ff;
 }
