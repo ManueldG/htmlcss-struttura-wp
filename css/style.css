@@ -3,12 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    background-color: #232323;
+}
+
+body {
+    width: 593px;
+    margin: auto;
+}
 
 .container {
     background-color: rgb(255, 255, 255);
-    height: 1000px;
-    width: 60%;
-    margin: 10% auto;
+    height: 600px;
+    width: 610px;
+    margin: 0 auto;
+    padding: 14px 65px 2px 65px;
 }
 
 .navbar {
@@ -26,7 +35,7 @@ header {
 main {
     background-color: #654aff;
     padding-bottom: .5%;
-    margin-bottom: .3%;
+    margin-bottom: .8%;
     height: 266px;
 }
 
@@ -44,14 +53,14 @@ main {
     height : 35px;
 }
 .left, .center, .right {
-    width: 30%;
+    width: 95px;
     float: left;
     height: 210px;
 } 
 
 .center {
     margin:0 10px;
-    width:38%;
+    width: 265px;%;
 }
 
 .right {
@@ -62,5 +71,5 @@ main {
 
 footer {
     background-color: #a500ff;
-    height:500px;
+    height:35px;
 }
