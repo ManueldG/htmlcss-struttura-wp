@@ -19,23 +19,21 @@ body {
     padding: 14px 65px 2px 65px;
 }
 
-.navbar {
+header {
     background-color: #ef1beb;
-    margin-bottom: 1%;
+    margin-bottom: 12px;
     height : 50px;
 }
 
-header {
+.first {
     background-color: #d7e461;
-    margin-bottom: 1%;    
+    margin-bottom: 12px;    
     height: 200px;
-}
+    }
 
 main {
     background-color: #654aff;
-    padding-bottom: .5%;
     margin-bottom: .8%;
-    height: 266px;
 }
 
 .clearfix::after {
@@ -46,9 +44,8 @@ main {
 }
 
 .contenuto {
-    margin-bottom:1%;
     background-color: #acc9ea;
-    margin-bottom: 1% ;
+    margin-bottom: 10px ;
     height : 35px;
 }
 .left, .center, .right {
