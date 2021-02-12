@@ -9,10 +9,11 @@ html {
     background-color: #232323;
 }
 
-/*centratura body*/
+/*centratura body non serve
 body {
     margin: auto;
 }
+*/
 
 /*struttura contenitore principale*/
 .container {
